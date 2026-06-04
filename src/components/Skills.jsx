@@ -3,14 +3,14 @@ import { motion } from 'framer-motion'
 import { Brush, Code, Database, GitBranch, Layers, PenTool, Smartphone, Wand2 } from 'lucide-react'
 
 const skills = [
-  { name: 'React JS', group: 'Development', level: 78, icon: Code },
-  { name: 'HTML, CSS, JavaScript', group: 'Development', level: 85, icon: Layers },
-  { name: 'Flutter', group: 'Development', level: 90, icon: Smartphone },
-  { name: 'Database MySql', group: 'Development', level: 80, icon: Database },
-  { name: 'Github', group: 'Development', level: 88, icon: GitBranch },
-  { name: 'Figma', group: 'Design', level: 88, icon: PenTool },
-  { name: 'Canva', group: 'Design', level: 95, icon: Brush },
-  { name: 'Adobe Ps, Adobe Ilustrator', group: 'Design', level: 90, icon: Wand2 },
+  { name: 'React JS', group: 'Development', level: 100, icon: Code },
+  { name: 'HTML, CSS, JavaScript', group: 'Development', level: 100, icon: Layers },
+  { name: 'Flutter', group: 'Development', level: 100, icon: Smartphone },
+  { name: 'Database MySql', group: 'Development', level: 100, icon: Database },
+  { name: 'Github', group: 'Development', level: 100, icon: GitBranch },
+  { name: 'Figma', group: 'Design', level: 100, icon: PenTool },
+  { name: 'Canva', group: 'Design', level: 100, icon: Brush },
+  { name: 'Adobe Ps, Adobe Ilustrator', group: 'Design', level: 100, icon: Wand2 },
 ]
 
 export default function Skills() {
