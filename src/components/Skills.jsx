@@ -54,7 +54,6 @@ export default function Skills() {
                   transition={{ duration: 1, delay: 0.1 }}
                 />
               </div>
-              <p>{skill.level}% proficiency</p>
             </motion.article>
           )
         })}
